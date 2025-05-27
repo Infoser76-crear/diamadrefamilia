@@ -30,11 +30,15 @@ select.addEventListener('change', () => {
       ${saludos[nombre]},<br><br>
       "Hoy celebro tu amor transformador, ese que con manos de alma teje los hilos invisibles de nuestra familia. En ti late la fuerza que nutre, el cuidado que sana y la alegría que convierte lo simple en eterno."
       Feliz dia de la Madre.
+
+      De parte de Nano.
     `;
   } else {
     mensaje.innerHTML = `
-     "Hoy celebro tu amor transformador, ese que con manos de alma teje los hilos invisibles de nuestra familia. En ti late la fuerza que nutre, el cuidado que sana y la alegría que convierte lo simple en eterno."
+      "Hoy celebro tu amor transformador, ese que con manos de alma teje los hilos invisibles de nuestra familia. En ti late la fuerza que nutre, el cuidado que sana y la alegría que convierte lo simple en eterno."
       Feliz dia de la Madre.
+
+      De parte de Nano.
     `;
     openBtn.disabled = true;
     body.style.background = '#ffe4ec';
