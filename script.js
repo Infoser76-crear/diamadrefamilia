@@ -28,15 +28,13 @@ select.addEventListener('change', () => {
 
     mensaje.innerHTML = `
       ${saludos[nombre]},<br><br>
-      Hoy celebro el amor que construye, transforma y renueva. A Ti, mujer extraordinarias que has tejido con paciencia y pasión los hilos de nuestra familia:
-      Veo en vos la fuerza que nutre, el cuidado que sana y la alegría que convierte lo simple en eterno. Gracias por ser refugio, complicidad y ejemplo vivo de que el amor se multiplica cuando se comparte.
-      Que este día les devuelva, en flores y abrazos, una mínima parte de todo lo que siembran cada día.
+      "Hoy celebro tu amor transformador, ese que con manos de alma teje los hilos invisibles de nuestra familia. En ti late la fuerza que nutre, el cuidado que sana y la alegría que convierte lo simple en eterno."
+      Feliz dia de la Madre.
     `;
   } else {
     mensaje.innerHTML = `
-      Hoy celebro el amor que construye, transforma y renueva. A Ti, mujer extraordinarias que has tejido con paciencia y pasión los hilos de nuestra familia:
-      Veo en vos la fuerza que nutre, el cuidado que sana y la alegría que convierte lo simple en eterno. Gracias por ser refugio, complicidad y ejemplo vivo de que el amor se multiplica cuando se comparte.
-      Que este día les devuelva, en flores y abrazos, una mínima parte de todo lo que siembran cada día.
+     "Hoy celebro tu amor transformador, ese que con manos de alma teje los hilos invisibles de nuestra familia. En ti late la fuerza que nutre, el cuidado que sana y la alegría que convierte lo simple en eterno."
+      Feliz dia de la Madre.
     `;
     openBtn.disabled = true;
     body.style.background = '#ffe4ec';

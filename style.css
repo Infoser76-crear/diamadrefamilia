@@ -15,7 +15,7 @@ main {
 
 .container-letter {
   position: relative;
-  width: 600px; /* Antes 400px o 300px */
+  width: 350px; /* Antes 400px o 300px */
   height: 300px; /* Podés dejarlo o ajustarlo si el texto se ve corto */
   background: #fff0f5;
   border-radius: 12px;
